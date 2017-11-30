@@ -166,7 +166,7 @@ class mod_videofile_renderer extends plugin_renderer_base {
             break;  // Only one poster allowed.
         }
         if (!$posterurl) {
-            $posterurl = $this->pix_url('moodle-logo', 'videofile');
+            $posterurl = $this->image_url('moodle-logo', 'videofile');
         }
 
         return $posterurl;
